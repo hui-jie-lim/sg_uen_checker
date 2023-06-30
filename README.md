@@ -27,5 +27,5 @@ Alternate source: https://data.gov.sg/dataset/acra-information-on-corporate-enti
 
 The alternate source list entities from a - z. To use the alternate source, just create new resource id and then pass a name and the resource_id over to the validate function.
 
-alpha_a_resource_id = "6b5cbfa7-b502-4ce6-875d-dafff7ff04f2" 
-validate("alpha_a", alpha_a_resource_id) 
+    alpha_a_resource_id = "6b5cbfa7-b502-4ce6-875d-dafff7ff04f2" 
+    validate("alpha_a", alpha_a_resource_id) 
