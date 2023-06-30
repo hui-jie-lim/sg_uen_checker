@@ -15,10 +15,12 @@ simply run the following. entries is optional. if not provided, we'll use a defa
 `python3 checker.py <entries>`
 
 # more info on UENs
+
 '* R = Registered * D = Deregistered
 Reference table: https://www.uen.gov.sg/ueninternet/faces/pages/admin/aboutUEN.jspx
 
 # sources
+
 Current source : https://data.gov.sg/dataset/entities-with-unique-entity-number
 Alternate source: https://data.gov.sg/dataset/acra-information-on-corporate-entities
 Alternate source list entities from a - z
