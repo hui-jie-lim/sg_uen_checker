@@ -16,12 +16,15 @@ simply run the following. entries is optional. if not provided, we'll use a defa
 
 # more info on UENs
 
-'* R = Registered * D = Deregistered
+* R = Registered * D = Deregistered
 Reference table: https://www.uen.gov.sg/ueninternet/faces/pages/admin/aboutUEN.jspx
 
 # sources
 
 Current source : https://data.gov.sg/dataset/entities-with-unique-entity-number
+
 Alternate source: https://data.gov.sg/dataset/acra-information-on-corporate-entities
+
 Alternate source list entities from a - z
+
 alpha_a = "6b5cbfa7-b502-4ce6-875d-dafff7ff04f2" 
