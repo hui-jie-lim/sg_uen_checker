@@ -1,7 +1,8 @@
 # requirements
 
 head over to https://github.com/arthurdejong/python-stdnum and clone the repo onto your machine. Alternatively, just use 
- ```gh repo clone arthurdejong/python-stdnum```
+
+ `gh repo clone arthurdejong/python-stdnum`
 
 Thereafter run the following to install stdnum onto your local machine. Ideally, do this in your virtual environment.  
 
