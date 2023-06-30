@@ -18,7 +18,7 @@ other_errors = 0
 errors = []
 count = 0
 
-def validate(category_name: str, uen_resource_id: str, count: int):
+def validate(category_name: str, uen_resource_id: str):
     count = 0
     r = requests.get("https://data.gov.sg/api/action/datastore_search?resource_id="
                     + uen_resource_id
@@ -43,9 +43,9 @@ def validate(category_name: str, uen_resource_id: str, count: int):
     return error_count
 
 
-acra_errors = validate("ACRA", acra_resource_id, count)
+acra_errors = validate("ACRA", acra_resource_id)
 print("")
-other_errors = validate("Other", other_resource_id, count)
+other_errors = validate("Other", other_resource_id)
 print("")
 print("Total", acra_errors + other_errors, "UEN with errors")
 print(errors)
