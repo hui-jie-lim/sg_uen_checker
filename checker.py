@@ -99,8 +99,8 @@ def validate(category_name: str, uen_resource_id: str):
 
 acra_errors = validate("ACRA", acra_resource_id)
 print("")
-print("validation error:", val_errors)
-print("digit check error:", digit_errors)
+# print("validation error:", val_errors)
+# print("digit check error:", digit_errors)
 # print("entity error:", entity_errors)
 print("troublesome entities:", troublesome_entities)
 print("-"*70)
@@ -108,8 +108,8 @@ print("-"*70)
 
 other_errors = validate("Other", other_resource_id)
 print("")
-print("validation error:", val_errors)
-print("digit check error:", digit_errors)
+# print("validation error:", val_errors)
+# print("digit check error:", digit_errors)
 # print("entity error:", entity_errors)
 print("troublesome entities:", troublesome_entities)
 
